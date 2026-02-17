@@ -35,4 +35,4 @@ const myFunction = function(){
 }
 console.log(typeof heros);
 
-// datatype                     value
+// datatype                      value
