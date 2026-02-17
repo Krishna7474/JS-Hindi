@@ -29,8 +29,10 @@ let myObj ={
     age : 22,
 
 } 
-const myFun = function(){
+const myFunction = function(){
     console.log("hello World");
     
 }
-console.log(typeof bigNumber);
+console.log(typeof heros);
+
+// datatype                     value
