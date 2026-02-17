@@ -1,5 +1,7 @@
 // Primitive 
 
+const { useInsertionEffect } = require("react");
+
 
 // 7 types : String , NUmber , Boolean ,null , undefined ,Symbol,BigInt
 
@@ -45,3 +47,35 @@ String                  =>          string
 object                  =>          object
 
 */
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// stack(primitive),Heap(Non-primitive)
+
+/*let myYoutubename = "hitesh "
+
+let anothername = myYoutubename
+anothername = "hello"
+
+console.log(anothername);
+console.log(myYoutubename);
+*/
+let userOne = {
+    email: "krishna@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "krishna@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
