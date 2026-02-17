@@ -36,3 +36,12 @@ const myFunction = function(){
 console.log(typeof heros);
 
 // datatype                      value
+
+/*undefined               =>          undefined
+Null                    =>          Object
+Boolean                =>           Boolean
+Number                  =>          Number
+String                  =>          string
+object                  =>          object
+
+*/
