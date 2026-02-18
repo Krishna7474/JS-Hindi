@@ -37,8 +37,6 @@ if(true){
 // console.log(username);
 
 
-
-
 //++++++++++++++++++++++interresting++++++++++++++==
 console.log(addone(5))
 function addone(num){
